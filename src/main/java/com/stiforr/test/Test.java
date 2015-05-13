@@ -15,20 +15,20 @@ import cpw.mods.fml.common.event.FMLPreInitializationEvent;
 @Mod(modid = Reference.MODID, version = Reference.VERSION)
 public class Test 
 {
-	public static Block TritOre;
-	
-	public static Item TritIngot;
-	
 	@EventHandler
 	public void preInit(FMLPreInitializationEvent event)
 	{
-		TritOre = new BlockLiveOre();
-		
-		RegisterHelper.registerBlock(TritOre);
-		
-		TritIngot = new ItemLiveIngot();
-		
-		RegisterHelper.registerItem(TritIngot);
+
+		RegisterHelper.init();
+
+		RegisterHelper.registerBlocksAndItems();
+	}
+
+	@EventHandler
+	public void init(FMLInitializationEvent event){
+
+		RegisterHelper.registerRecipes();
+
 	}
 
 }
