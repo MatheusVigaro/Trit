@@ -19,7 +19,6 @@ public class BlockLiveOre extends Block
 		setCreativeTab(CreativeTabs.tabBlock);
 		setStepSound(soundTypePiston);
 		setHardness(3.0F);
-		setResistance(5.0F);
-		setLightLevel(0.5F);
+		setResistance(5.0F);		
 	}
 }
