@@ -1,4 +1,4 @@
-package com.stiforr.test.tems;
+package com.stiforr.test.items;
 
 import com.stiforr.test.help.Reference;
 

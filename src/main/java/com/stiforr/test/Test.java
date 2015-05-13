@@ -6,7 +6,7 @@ import net.minecraft.item.Item;
 import com.stiforr.test.blocks.BlockLiveOre;
 import com.stiforr.test.help.Reference;
 import com.stiforr.test.help.RegisterHelper;
-import com.stiforr.test.tems.ItemLiveIngot;
+import com.stiforr.test.items.ItemLiveIngot;
 
 import cpw.mods.fml.common.Mod;
 import cpw.mods.fml.common.Mod.EventHandler;

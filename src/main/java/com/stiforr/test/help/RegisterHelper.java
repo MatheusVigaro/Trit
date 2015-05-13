@@ -1,7 +1,7 @@
 package com.stiforr.test.help;
 
 import com.stiforr.test.blocks.BlockLiveOre;
-import com.stiforr.test.tems.ItemLiveIngot;
+import com.stiforr.test.items.ItemLiveIngot;
 
 import net.minecraft.block.Block;
 import net.minecraft.item.Item;
